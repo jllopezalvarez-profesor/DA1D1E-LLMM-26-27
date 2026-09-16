@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grupo curso="1">
+    <grado>Doble título DAM / DAW</grado>
+    <aula>0.3</aula>
+    <!--Este
+    elemento es la raíz para los profesores-->
+    <profesores>
+        <profesor>José Luis</profesor>
+        <profesor>Miguel Ángel</profesor>
+        <profesor>Teresa</profesor>
+        <profesor tutor="si">Jorge</profesor>
+        <alumno></alumno>
+    </profesores>
+    <alumnos>
+        <alumno>
+            <fechaNacimiento>
+
+
+            </fechaNacimiento>
+        </alumno>
+    </alumnos>
+    <fechaNacimiento>
+    </fechaNacimiento>
+
+    <duracion>
+
+    </duracion>
+
+</grupo>

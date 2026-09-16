@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas>
+    <persona>
+        <identificador>1</identificador>
+        <nombre>Jaime</nombre>
+        <apellido>López</apellido>
+        <direccion>
+            <tipo-via></tipo-via>
+            <tipo_via></tipo_via>
+            <tipoVia></tipoVia>
+
+
+        </direccion>
+
+    </persona>
+
+    <persona>
+        <identificador>2</identificador>
+        <nombre>Mónica</nombre>
+        <apellido>López</apellido>
+
+    </persona>
+</personas>

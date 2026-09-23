@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<persona id="1">
-    <nombre>José Luis</nombre>
-    <apellidos>López Álvarez</apellidos>
-    <direccion tipoVia="Calle" numero="8" codigoPostal="28002">
-        <nombreVia>Padre Claret</nombreVia>
-        <masInfo></masInfo>
-        <poblacion>Madrid</poblacion>
-    </direccion>
-    <telefonos fijo="911111111" movil="639999999" trabajo="" />
-</persona>
+<personas>
+    <persona id="1">
+        <nombre>José Luis</nombre>
+        <apellidos>López Álvarez</apellidos>
+        <direccion tipoVia="Calle" numero="8" codigoPostal="28002">
+            <nombreVia>Padre Claret</nombreVia>
+            <masInfo></masInfo>
+            <poblacion>Madrid</poblacion>
+        </direccion>
+        <telefonos fijo="911111111" movil="639999999" trabajo="" />
+    </persona>
+
+    <persona id="2">
+        <nombre>Luis</nombre>
+        <apellidos>Moreno</apellidos>
+        <direccion tipoVia="Calle" numero="8" codigoPostal="28002">
+            <nombreVia>Padre Claret</nombreVia>
+            <masInfo></masInfo>
+            <poblacion>Madrid</poblacion>
+        </direccion>
+        <telefonos fijo="911111111" movil="689587848" trabajo="" />
+    </persona>
+</personas>

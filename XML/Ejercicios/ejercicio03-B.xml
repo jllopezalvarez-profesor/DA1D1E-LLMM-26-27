@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciclo>
+
+    <modulos>
+        <modulo codigo="0373"
+            horas-lectivas="110">
+            <nombre> Lenguajes de marcas y sistemas de gestión de la información sdafkjsdhf
+                kjashdkfahkdshfak ad fahskdfh kashd faskdhf kjashdf kjahsd kfahksdhfkjahsdkfjh
+                aksjdhf akjsdhfkj ashdkfjahs kdjhfaskjhakshdf kjshdfkjahsdklfh akjsdhf kjlashdfkjla
+                shdfkjh
+            </nombre>
+        </modulo>
+        <modulo codigo="0747" mombre="Programación"
+            horas-lectivas="280" />
+
+    </modulos>
+
+
+</ciclo>

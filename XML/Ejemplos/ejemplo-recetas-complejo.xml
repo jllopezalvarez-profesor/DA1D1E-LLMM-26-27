@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recetario>
+    <ingredientes>
+        <ingrediente id="1">Cebolla</ingrediente>
+        <ingrediente id="2">Lentejas</ingrediente>
+        <ingrediente id="3">Chorizo</ingrediente>
+        <ingrediente id="4">Sal</ingrediente>
+        <ingrediente id="5">Arroz redondo</ingrediente>
+        <ingrediente id="6">Arroz basmati</ingrediente>
+        <ingrediente id="7">Pechuga de pollo</ingrediente>
+        <ingrediente id="8">Gelatina</ingrediente>
+    </ingredientes>
+
+    <unidades>
+        <unidad id="KG">Kilogramo</unidad>
+        <unidad id="PZ">Piezas</unidad>
+        <unidad id="GR">Gramos</unidad>
+        <unidad id="LM">Láminas</unidad>
+    </unidades>
+
+
+    <recetas id="1">
+        <nombre>Lentejas con chorizo</nombre>
+        <comensales>4</comensales>
+        <ingredientes>
+            <ingrediente orden="1" ingrediente="2" unidades="GR" cantidad="200" />
+            <ingrediente orden="2" ingrediente="1" unidades="PZ" cantidad="1" />
+        </ingredientes>
+    </recetas>
+    <receta id="2">
+        <nombre>Sopa de cebolla</nombre>
+        <comensales>4</comensales>
+        <ingredientes>
+            <ingrediente orden="1" id-ingrediente="1" unidades="KG" cantidad="1" />
+        </ingredientes>
+    </receta>
+
+
+</recetario>

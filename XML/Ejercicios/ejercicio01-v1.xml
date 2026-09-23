@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <personas>
-    <persona id="1"></persona>
-    <persona></persona>
+    <persona id="1">
+        <nombre>José Luis</nombre>
+        <apellidos>López Álvarez</apellidos>
+        <direccion>
+            <tipoVia>Calle</tipoVia>
+            <nombreVia>Padre Claret</nombreVia>
+            <numero>8</numero>
+            <masInfo></masInfo>
+            <codigoPostal>28002</codigoPostal>
+            <poblacion>Madrid</poblacion>
+        </direccion>
+        <telefonos>
+            <fijo>911111111</fijo>
+            <movil>639999999</movil>
+            <trabajo></trabajo>
+        </telefonos>
+    </persona>
+    <persona id="2">
+        <nombre>Luis</nombre>
+        <apellidos>Moreno</apellidos>
+        <direccion>
+            <tipoVia>Calle</tipoVia>
+            <nombreVia>Padre Claret</nombreVia>
+            <numero>8</numero>
+            <masInfo></masInfo>
+            <codigoPostal>28002</codigoPostal>
+            <poblacion>Madrid</poblacion>
+        </direccion>
+        <telefonos>
+            <fijo>911111111</fijo>
+            <movil>698583656</movil>
+            <trabajo></trabajo>
+        </telefonos>
+    </persona>
+
 </personas>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ciclo>
+
+    <modulos>
+        <modulo>
+            <codigo>0373</codigo>
+            <nombre>Lenguajes de marcas y sistemas de gestión de la información</nombre>
+            <horas-lectivas>110</horas-lectivas>
+        </modulo>
+        <modulo>
+            <codigo>0747</codigo>
+            <nombre>Programación</nombre>
+            <horas-lectivas>280</horas-lectivas>
+        </modulo>
+    </modulos>
+
+
+</ciclo>

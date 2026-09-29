@@ -1,0 +1,19 @@
+{
+    "descripcion": "Este JSON contiene una colección con números pares y otra con primos",
+    "primos": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19
+    ],
+    "pares": [
+        2,
+        4,
+        6,
+        8
+    ]
+}

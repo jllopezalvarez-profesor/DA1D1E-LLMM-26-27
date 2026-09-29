@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Juan Antonio",
+        "apellidos": "Matín Martín",
+        "edad": 24
+    },
+    {
+        "nombre": "Manuel",
+        "apellidos": "López López",
+        "edad": 24
+    },
+    {
+        "nombre": "María",
+        "apellidos": "Álvarez Pérez",
+        "edad": 24
+    }
+]

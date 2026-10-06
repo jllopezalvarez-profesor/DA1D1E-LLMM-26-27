@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    UT 01 - Ejercicio 04 - VERSIÓN 3: Variación del V2 en el que, 
+    para los destinatarios se usa un "contenedor" que permite agruparlos.
+-->
+<mensaje asunto="Hola Bill">
+    <remitente email="alf@empresa.com">Alfredo Reino</remitente>
+    <destinatarios>
+        <destinatario email="president@whitehouse.gov">Bill Clinton</destinatario>
+        <destinatario email="hillary@whitehouse.gov">Hillary Clinton</destinatario>
+    </destinatarios>
+    <texto>
+        <parrafo>¿Hola qué tal? ...</parrafo>
+        <parrafo>Te escribo para comentarte ...</parrafo>
+        <parrafo>Un saludo.</parrafo>
+    </texto>
+</mensaje>

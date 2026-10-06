@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    UT 01 - Ejercicio 04 - VERSIÓN 2: Variación del V1 usando el 
+    texto del elemento para destinatarios y remitente
+
+    La estructura es igual que la versión 1, pero en el remitente 
+    y en los destinatarios, en lugar de que haya un descendiente "nombre"
+    para guardar el nombre, se usa el propio elemento "remitente" o 
+    "destinatario", usando el texto del elemento.
+-->
+<mensaje asunto="Hola Bill">
+    <remitente email="alf@empresa.com">Alfredo Reino</remitente>
+    <destinatario email="president@whitehouse.gov">Bill Clinton</destinatario>
+    <destinatario email="hillary@whitehouse.gov">Hillary Clinton</destinatario>
+    <texto>
+        <parrafo>¿Hola qué tal? ...</parrafo>
+        <parrafo>Te escribo para comentarte ...</parrafo>
+        <parrafo>Un saludo.</parrafo>
+    </texto>
+</mensaje>

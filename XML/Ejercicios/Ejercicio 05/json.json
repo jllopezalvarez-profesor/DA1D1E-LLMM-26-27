@@ -1,0 +1,71 @@
+{
+    "_comentario": [
+        "UT 01 - Ejercicio 05 - Versión JSON.",
+        "JSON no distingue entre atributos y elementos: todo son pares clave-valor.",
+        "'pedidos' es un array, así que se pueden guardar varios pedidos.",
+        "Cada pedido tiene id, fecha (YYYY-MM-DD), cliente (objeto), direccionEnvio (objeto), productos (array de objetos) y total.",
+        "Los importes y cantidades son números, no texto, para que un programa pueda operar con ellos.",
+        "total = suma de cantidad x precioUnitario de todos los productos.",
+        "Como JSON 'puro' no admite comentarios, se ha añadido este elemento '_comentario' para poder explicar la estructura."
+    ],
+    "pedidos": [
+        {
+            "id": 1001,
+            "fecha": "2025-02-14",
+            "cliente": {
+                "id": "C123",
+                "nombre": "Juan Pérez",
+                "email": "juan.perez@email.com"
+            },
+            "direccionEnvio": {
+                "calle": "Av. Siempre Viva 742",
+                "ciudad": "Springfield",
+                "codigoPostal": "12345"
+            },
+            "productos": [
+                {
+                    "id": "P001",
+                    "nombre": "Teclado mecánico",
+                    "cantidad": 1,
+                    "precioUnitario": 50.00
+                },
+                {
+                    "id": "P002",
+                    "nombre": "Mouse inalámbrico",
+                    "cantidad": 2,
+                    "precioUnitario": 25.00
+                }
+            ],
+            "total": 100.00
+        },
+        {
+            "id": 1002,
+            "fecha": "2025-02-15",
+            "cliente": {
+                "id": "C456",
+                "nombre": "María López",
+                "email": "maria.lopez@email.com"
+            },
+            "direccionEnvio": {
+                "calle": "Calle Mayor 10",
+                "ciudad": "Madrid",
+                "codigoPostal": "28013"
+            },
+            "productos": [
+                {
+                    "id": "P003",
+                    "nombre": "Monitor 24 pulgadas",
+                    "cantidad": 1,
+                    "precioUnitario": 149.99
+                },
+                {
+                    "id": "P002",
+                    "nombre": "Mouse inalámbrico",
+                    "cantidad": 1,
+                    "precioUnitario": 25.00
+                }
+            ],
+            "total": 174.99
+        }
+    ]
+}

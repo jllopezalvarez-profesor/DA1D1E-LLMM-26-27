@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    UT 01 - Ejercicio 04 - VERSIÓN 1: combinación de elementos y atributos
+
+    Estructura del documento:
+    - <mensaje> es el elemento raíz.
+      - Atributo "asunto": el asunto del mensaje. Es un dato simple
+        que solo aparece una vez, por eso se representa como atributo.
+    - <remite> aparece una única vez (solo hay un remitente).
+      - Atributo "email": dirección de correo del remitente.
+      - Elemento <nombre>: nombre del remitente.
+    - <destinatario> se repite tantas veces como destinatarios haya
+      (uno o más). Cada uno tiene:
+      - Atributo "email": dirección de correo del destinatario.
+      - Elemento <nombre>: nombre del destinatario.
+    - <texto> contiene el cuerpo del mensaje.
+      - <parrafo> se repite un número ilimitado de veces. No lleva
+        atributos de orden: XML conserva el orden de los elementos,
+        así que los párrafos se muestran en el orden en que aparecen.
+
+    Criterio: los datos simples y únicos (asunto, email) van como
+    atributos; los datos que pueden repetirse o contener texto largo
+    (destinatarios, párrafos) van como elementos.
+-->
+<mensaje asunto="Hola Bill">
+    <remitente email="alf@empresa.com">
+        <nombre>Alfredo Reino</nombre>
+    </remitente>
+    <destinatario email="president@whitehouse.gov">
+        <nombre>Bill Clinton</nombre>
+    </destinatario>
+    <destinatario email="hillary@whitehouse.gov">
+        <nombre>Hillary Clinton</nombre>
+    </destinatario>
+    <texto>
+        <parrafo>¿Hola qué tal? ...</parrafo>
+        <parrafo>Te escribo para comentarte ...</parrafo>
+        <parrafo>Un saludo.</parrafo>
+    </texto>
+</mensaje>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    UT 01 - Ejercicio 05
+
+    Estructura del documento:
+    - <pedidos> es el elemento raíz. Permite almacenar VARIOS pedidos.
+    - <pedido> se repite una vez por cada pedido.
+      - Atributo "id": identificador del pedido.
+      - Atributo "fecha": fecha del pedido en formato YYYY-MM-DD.
+      - <cliente>: datos del cliente que hace el pedido.
+        - Atributo "id": identificador del cliente.
+        - <nombre>: nombre del cliente.
+        - <email>: correo electrónico del cliente.
+      - <direccionEnvio>: dirección a la que se envía el pedido.
+        - <calle>: calle y número.
+        - <ciudad>: ciudad.
+        - <codigoPostal>: código postal.
+      - <productos>: lista de productos (uno o más).
+        - <producto> se repite una vez por cada producto.
+          - Atributo "id": identificador del producto.
+          - Atributo "cantidad": unidades pedidas.
+          - Atributo "precioUnitario": precio de una unidad.
+          - <nombre>: nombre del producto.
+      - <total>: importe total del pedido, igual a la suma de
+        cantidad x precioUnitario de todos los productos.
+
+    Criterio: se respeta exactamente lo que pide el enunciado sobre
+    qué datos son atributos y cuáles son elementos. Los importes usan
+    punto decimal y dos decimales para que un programa los lea sin
+    problemas.
+-->
+<pedidos>
+    <pedido id="1001" fecha="2025-02-14">
+        <cliente id="C123">
+            <nombre>Juan Pérez</nombre>
+            <email>juan.perez@email.com</email>
+        </cliente>
+        <direccionEnvio>
+            <calle>Av. Siempre Viva 742</calle>
+            <ciudad>Springfield</ciudad>
+            <codigoPostal>12345</codigoPostal>
+        </direccionEnvio>
+        <productos>
+            <producto id="P001" cantidad="1" precioUnitario="50.00">
+                <nombre>Teclado mecánico</nombre>
+            </producto>
+            <producto id="P002" cantidad="2" precioUnitario="25.00">
+                <nombre>Mouse inalámbrico</nombre>
+            </producto>
+        </productos>
+        <total>100.00</total>
+    </pedido>
+    <pedido id="1002" fecha="2025-02-15">
+        <cliente id="C456">
+            <nombre>María López</nombre>
+            <email>maria.lopez@email.com</email>
+        </cliente>
+        <direccionEnvio>
+            <calle>Calle Mayor 10</calle>
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28013</codigoPostal>
+        </direccionEnvio>
+        <productos>
+            <producto id="P003" cantidad="1" precioUnitario="149.99">
+                <nombre>Monitor 24 pulgadas</nombre>
+            </producto>
+            <producto id="P002" cantidad="1" precioUnitario="25.00">
+                <nombre>Mouse inalámbrico</nombre>
+            </producto>
+        </productos>
+        <total>174.99</total>
+    </pedido>
+</pedidos>

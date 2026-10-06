@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:paco="https://www.extonoexiste.com">
+    <persona>
+        <nombre></nombre>
+        <apellido></apellido>
+        <paco:otroElemento>
+
+        </paco:otroElemento>
+
+    </persona>
+</personas>

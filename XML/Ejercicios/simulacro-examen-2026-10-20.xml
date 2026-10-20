@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plataforma-cursos>
+    <autor>
+        <nombre>José Luis</nombre>
+        <apellido1>López</apellido1>
+        <apellido2>Álvarez</apellido2>
+    </autor>
+
+    <categorias>
+        <categoria cod="PRO">
+            <nombre>Programación</nombre>
+            <descripcion>Programación</descripcion>
+        </categoria>
+        <categoria cod="DIS">
+            <nombre>Diseño</nombre>
+            <descripcion>Diseño</descripcion>
+        </categoria>
+    </categorias>
+
+    <instructores>
+        <intructor id="1">
+            <nombre-instructor>
+                <nombre>Juan</nombre>
+                <apellidos>García Pérez</apellidos>
+            </nombre-instructor>
+            <pais-origen>España</pais-origen>
+            <contacto>
+                <email>jgarcia@sitio.com</email>
+                <link-profesional>http://www.linkedin.com/21312</link-profesional>
+            </contacto>
+        </intructor>
+        <intructor id="2">
+            <nombre-instructor>
+                <nombre></nombre>
+                <apellidos></apellidos>
+            </nombre-instructor>
+            <pais-origen></pais-origen>
+            <contacto>
+                <email></email>
+                <link-profesional></link-profesional>
+            </contacto>
+        </intructor>
+    </instructores>
+
+    <cursos>
+        <curso codigo="C1234" cod-cat="PRO" nivel="Avanzado">
+            <titulo>Programación funcional con la API Stream de Java</titulo>
+            <cod-instructor>1</cod-instructor>
+            <calendario inicio="2026-12-07" fin="2027-03-12" horas="130" />
+            <contenidos>
+                <tema>Introducción a la Stream API</tema>
+                <tema>El objeto Optional&lt;T&gt;</tema>
+                <tema>Operaciones intermedias y terminales</tema>
+            </contenidos>
+        </curso>
+    </cursos>
+</plataforma-cursos>

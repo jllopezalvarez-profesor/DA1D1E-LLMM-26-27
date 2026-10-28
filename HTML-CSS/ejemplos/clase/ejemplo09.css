@@ -1,0 +1,36 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    color: red
+}
+
+h1,
+h2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: bisque;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#origen {
+    background-color: aquamarine;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+ul li {
+    display: inline-block;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+
+}

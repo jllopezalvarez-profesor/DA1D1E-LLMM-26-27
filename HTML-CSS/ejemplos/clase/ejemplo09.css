@@ -34,9 +34,24 @@ ul li {
     background-color: gray;
     padding: 10px;
     border-radius: 10px;
+    border: 2px dotted red;
 
 }
 
 .fondo-azul {
     background-color: lightblue;
+}
+
+.letras-amarillas {
+    color: yellow;
+}
+
+/* Regla para campos disabled */
+[disabled] {
+    background-color: slategray;
+}
+
+/* Regla para enlaces que abren en ventana nueva */
+a[target="_blank"] {
+    background-color: lightgrey;
 }

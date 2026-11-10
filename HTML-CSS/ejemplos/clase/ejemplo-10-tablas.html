@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de tabla</title>
+    <style>
+        table,
+        td,
+        th {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ejemplos de tablas</h1>
+
+    <h2>Tabla simple de tres filas y dos columnas</h2>
+    <table>
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+            <td>2,2</td>
+
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,2</td>
+        </tr>
+
+
+    </table>
+
+
+    <h2>Tabla simple de con forma no regular</h2>
+    <table>
+        <tr>
+            <td>1,1</td>
+            <td>1,2</td>
+            <td>1,2</td>
+            <td>1,4</td>
+        </tr>
+        <tr>
+            <td>2,1</td>
+        </tr>
+        <tr>
+            <td>3,1</td>
+            <td>3,2</td>
+            <td>3,3</td>
+        </tr>
+
+
+    </table>
+
+    <h2>Tabla con celdas de encabezados</h2>
+    <table>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">Edad</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>José</td>
+            <td>López</td>
+            <td>54</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>María</td>
+            <td>Martínez</td>
+            <td>36</td>
+        </tr>
+    </table>
+
+    <h2>Estructura completa de tabla</h2>
+    <table>
+        <caption>
+            Datos de usuarios
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>José</td>
+                <td>López</td>
+                <td>54</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>María</td>
+                <td>Martínez</td>
+                <td>36</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Nº de usuarios</td>
+                <td>2</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Otra tabla con colspan y rowspan</h2>
+
+    <table>
+        <tr>
+            <td>X</td>
+            <td>X</td>
+            <td rowspan="3">3F</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td rowspan="2" colspan="2">2F2C</td>
+        </tr>
+        <tr>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+            <td>X</td>
+        </tr>
+
+    </table>
+
+
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+    <p>.</p>
+</body>
+
+</html>
